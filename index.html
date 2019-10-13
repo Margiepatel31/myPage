@@ -1,11 +1,88 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>My Page</title>
-</head>
-<body>
-  Hello world!
-</body>
-</html>
+
+<!--
+    File:/~mspatel/public_html/Assignment-4/FirstWebPage.html
+    91.461 GUI Programming I  Assignment# 4:  Styling First Web Page With CSS
+    Copyright (c) 2018 by Margie Patel. All rights reserved.
+    updated by MP on October 09, 2019 at 5:00 PM
+    Description:  Created this web page to explore and to get familiarize with different tags of HTML-->
+
+<!DOCTYPE html>                       <!-- define document type -->
+<html lang="en">                      <!-- primary language for the document's content -->
+  <head>                              <!-- document header -->
+    <title>First Web Page</title>     <!-- page title -->
+    <meta charset="utf-8">            <!-- <meta> tag that specifies the character encoding of the page -->
+    <link href="css/A-4.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>          <!-- starting body of the page -->
+  <header>
+    <div class="container">
+    <a href="http://jigsaw.w3.org/css-validator/">
+      <img style="border:0;width:88px;height:31px"
+           src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+           alt="Valid CSS!" /></a>
+      <h2>COMP 4610 GUI Programming I</h2>     <!-- font in header using h2 -->
+    </div>
+  </header>
+  <nav id="navbar">
+    <div class="container">
+      <h4>Margie Patel</h4>
+      <h5>Margie_Patel@student.uml.edu</h5>
+    </div>
+  </nav>
+
+  <div id="main">
+    <table class="container">                  <!-- define table -->
+      <tr>                                     <!-- define row -->
+        <th>Assignments</th>                   <!-- table header -->
+        <th>Description</th>
+        <th>Files</th>
+      </tr>
+      <tr>
+         <td>Assignment 1</td>                  <!-- define table data -->
+         <td><a>Introduction</a></td>
+         <td><a>-</a></td>
+       </tr>
+      <tr>
+         <td>Assignment 2</td>                  <!-- define table data -->
+         <td><a href="http://weblab.cs.uml.edu/~mspatel/index.html">First Web Page</a></td>       <!-- creates link -->
+         <td><a href="http://weblab.cs.uml.edu/~mspatel/index.html">FirstWebPage.html</a></td>
+       </tr>
+       <tr>
+         <td>Assignment 3</td>
+         <td><a href="http://weblab.cs.uml.edu/~mspatel/Assignment-3/hw-3/PacificTrailsResort.html">Pacific Trails Resort</a></td>
+         <td><a href="http://weblab.cs.uml.edu/~mspatel/Assignment-3/hw-3/PacificTrailsResort.html">PacificTrailsResort.html</a>
+             <a href="http://weblab.cs.uml.edu/~mspatel/Assignment-3/hw-3/pacific.css">pacific.css</a></td>
+       </tr>
+       <tr>
+         <td>Assignment 4</td>
+         <td><a href="http://weblab.cs.uml.edu/~mspatel/Assignment-4/FirstWebPage.html">FirstWebPage</a></td>       <!-- creates link -->
+         <td><a href="http://weblab.cs.uml.edu/~mspatel//Assignment-4/FirstWebPage.html">FirstWebPage.html</a>
+             <a href="http://weblab.cs.uml.edu/~mspatel/Assignment-4/css/A-4.css">A-4.css</a></td>
+       </tr>
+       <tr>
+          <td>Assignment 5</td>                  <!-- define table data -->
+          <td><a href="http://weblab.cs.uml.edu/~mspatel/Assignment-5">Intro to GitHub</a></td>
+          <td><a>-</a></td>
+        </tr>
+        <tr>
+           <td>Assignment 6</td>
+           <td><a href="http://weblab.cs.uml.edu/~mspatel/Assignment-6">NOT ASSIGN</a></td>
+           <td><a>-</a></td>
+        </tr>
+        <tr>
+           <td>Assignment 7</td>
+           <td><a href="http://weblab.cs.uml.edu/~mspatel/Assignment-7">NOT ASSIGN</a></td>
+           <td><a>-</a></td>
+        </tr>
+     </table>
+  </div>
+  <!-- I have taken some ideas from the video in below link to create my page -->
+  <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/yfoY53QXEnI"
+       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+  <footer>
+    <p>Copyright &copy; 2018 <a href="mailto:Margie_Patel@student.uml.edu">MPatel </a></p>
+  </footer>
+ </body>                           <!-- ending the body of the page -->
+</html>                             <!-- ending html tag -->
+
