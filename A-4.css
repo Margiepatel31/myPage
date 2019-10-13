@@ -76,7 +76,7 @@ a:hover {
   width: 100%;
   min-width: 400px;
   /*background-color: gray;*/
-  background-image:url('../images/Website-Design-Background.png');    /* background */
+  background-image:url('Website-Design-Background.png');    /* background */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
